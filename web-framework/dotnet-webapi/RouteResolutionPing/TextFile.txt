@@ -1,0 +1,1 @@
+﻿docker run -m 512M -p 8030:80 -d --name my-netapi-route netapi-route:v1

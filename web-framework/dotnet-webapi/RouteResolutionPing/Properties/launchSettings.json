@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "RouteResolutionPing": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5031",
+      "dotnetRunMessages": true
+    }
+  }
+}
