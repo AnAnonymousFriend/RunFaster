@@ -1,7 +1,9 @@
 FROM golang:1.17
 
-WORKDIR /go/src/app
-COPY . /go/src/app
+ENV GOPROXY https://goproxy.cn,direct
+
+WORKDIR $GOPATH/src/gin-ping
+COPY . $GOPATH/src/gin-ping
 RUN go build .
 
 EXPOSE 8080
